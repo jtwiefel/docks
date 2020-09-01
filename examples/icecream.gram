@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for WTM
+ */
+
+grammar scenario;
+
+public <utterance> = bring me a ((<size> cup) | cup) with <ingredient>;
+<size> = small | medium | big;
+<ingredient> = chocolate | vanilla | strawberry;

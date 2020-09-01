@@ -1,0 +1,9 @@
+*.pyc
+env*
+local_mitlm*
+mitlm*
+relmitlm*
+examples/icecream/
+examples/pizzeria/
+g2p_models/old_models/
+*~
